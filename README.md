@@ -68,9 +68,9 @@ The objective of this assignment is to understand and implement fundamental **SQ
 ---
 
 ## 👤 Student Details
-- **Name:** Alok Kumar  
-- **Roll No:** 23425
-- **Reg. No:** 23105128017
+- **Name:** NIKHIL SINGH 
+- **Roll No:** 23402
+- **Reg. No:** 23105128003
 - **Branch :** CSE 
 - **College:** BPMCE,Madhepura 
 - **Session:** 2023–2027  
