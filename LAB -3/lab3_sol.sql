@@ -68,16 +68,17 @@ INSERT INTO Course VALUES (610, 'Power Systems', 4, 9, 512);
 
 
 
-INSERT INTO Student VALUES (701, 'Alok Kumar', TO_DATE('2003-05-12','YYYY-MM-DD'), 'Male', '9123456789', 1);
-INSERT INTO Student VALUES (702, 'Rohit Kumar', TO_DATE('2003-08-20','YYYY-MM-DD'), 'Male', '9234567890', 1);
-INSERT INTO Student VALUES (703, 'Aman Kumar', TO_DATE('2003-02-15','YYYY-MM-DD'), 'Male', '9345678901', 7);
-INSERT INTO Student VALUES (704, 'Priya Kumari', TO_DATE('2003-11-05','YYYY-MM-DD'), 'Female', '9456789012', 7);
-INSERT INTO Student VALUES (705, 'Vikas Kumar', TO_DATE('2003-06-18','YYYY-MM-DD'), 'Male', '9567890123', 6);
-INSERT INTO Student VALUES (706, 'Neha Kumari', TO_DATE('2003-09-09','YYYY-MM-DD'), 'Female', '9678901234', 8);
-INSERT INTO Student VALUES (707, 'Rahul Kumar', TO_DATE('2003-01-22','YYYY-MM-DD'), 'Male', '9789012345', 9);
-INSERT INTO Student VALUES (708, 'Anjali Kumari', TO_DATE('2003-04-30','YYYY-MM-DD'), 'Female', '9890123456', 6);
-INSERT INTO Student VALUES (709, 'Saurabh Kumar', TO_DATE('2003-12-14','YYYY-MM-DD'), 'Male', '9912345678', 8);
-INSERT INTO Student VALUES (710, 'Pooja Kumari', TO_DATE('2003-07-27','YYYY-MM-DD'), 'Female', '9923456789', 9);
+INSERT INTO Student VALUES (701, 'Alok Kumar', DATE '2003-05-12', 'Male', '9123456789', 1);
+INSERT INTO Student VALUES (702, 'Rohit Kumar',DATE'2003-08-20', 'Male', '9234567890', 1);
+INSERT INTO Student VALUES (703, 'Aman Kumar', DATE'2003-02-15', 'Male', '9345678901', 7);
+INSERT INTO Student VALUES (704, 'Priya Kumari',DATE'2003-11-05', 'Female', '9456789012', 7);
+INSERT INTO Student VALUES (705, 'Vikas Kumar', DATE'2003-06-18', 'Male', '9567890123', 6);
+INSERT INTO Student VALUES (706, 'Neha Kumari', DATE'2003-09-09', 'Female', '9678901234', 8);
+INSERT INTO Student VALUES (707, 'Rahul Kumar', DATE'2003-01-22', 'Male', '9789012345', 9);
+INSERT INTO Student VALUES (708, 'Anjali Kumari',DATE'2003-04-30', 'Female', '9890123456', 6);
+INSERT INTO Student VALUES (709, 'Saurabh Kumar', DATE'2003-12-14', 'Male', '9912345678', 8);
+INSERT INTO Student VALUES (710, 'Pooja Kumari', DATE'2003-07-27', 'Female', '9923456789', 9);
+
 
 
 -- ======================================================
@@ -109,3 +110,4 @@ SELECT * FROM Student;
 SELECT * FROM Enrollment;
 
 COMMIT;
+
