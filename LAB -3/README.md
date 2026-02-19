@@ -165,7 +165,7 @@ SELECT * FROM Enrollment;
 - **College:** BPMCE,Madhepura 
 - **Session:** 2023–2027  
 
----
+
 
 ## 📌 Conclusion
 This assignment helped in understanding the practical usage of SQL commands for managing databases and tables.  
